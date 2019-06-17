@@ -31,7 +31,7 @@ public abstract class BaseTest {
     private UserService userService;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         userService.clear();
     }
 
